@@ -45,9 +45,6 @@ class  AlgorithmBubbleSort(Algorithm):
 				if self.items[j] > self.items[j+1]:
 					self.items[j], self.items[j+1] = self.items[j+1], self.items[j]    
 
-		print ("AlgorithmInsertionSort: ")
-		print ("Input: ", items_original)
-		print ("Output: ", self.items)
 
 class  AlgorithmInsertionSort(Algorithm):
 	def method_algorithm(self):
@@ -58,9 +55,6 @@ class  AlgorithmInsertionSort(Algorithm):
 				self.items[j], self.items[j-1] = self.items[j-1], self.items[j]
 				j -= 1
 
-		print ("AlgorithmInsertionSort: ")
-		print ("Input: ", items_original)
-		print ("Output: ", self.items)
 			
 list_nums = [1, 5, 3, 0, 9]
 
